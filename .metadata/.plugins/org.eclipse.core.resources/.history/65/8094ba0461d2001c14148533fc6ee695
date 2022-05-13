@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuery를 직접 다운로드하고 호스팅 -->
+</head>
+<body>
+
+<!--radio-->
+<ul>
+	<li><input type="radio" name=""></li>
+
+</ul>
+
+</body>
+</html>

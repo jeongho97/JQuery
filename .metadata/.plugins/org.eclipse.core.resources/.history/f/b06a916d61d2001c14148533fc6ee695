@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuery를 직접 다운로드하고 호스팅 -->
+</head>
+<body>
+
+<!--radio-->
+<ul>
+	<li><input type="radio" name="rbtn" value="apple">사과</li>
+	<li><input type="radio" name="rbtn" value="pale">배</li>
+	<li><input type="radio" name="rbtn" value="banana">바나나</li>
+
+</ul>
+
+<button type="button" id="choice">선택</button>
+
+<script type="text/javascript">
+
+
+
+</script>
+</body>
+</html>

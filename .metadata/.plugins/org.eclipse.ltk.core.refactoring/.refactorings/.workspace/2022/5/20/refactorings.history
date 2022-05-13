@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;sample01&apos; to &apos;JQuery기본&apos;" description="Rename resource &apos;sample01&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/sample01" name="JQuery기본" stamp="1652430415738" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;sample02&apos; to &apos;JQuery기본2&apos;" description="Rename resource &apos;sample02&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/sample02" name="JQuery기본2" stamp="1652430492195" updateReferences="true"/>
+</session>

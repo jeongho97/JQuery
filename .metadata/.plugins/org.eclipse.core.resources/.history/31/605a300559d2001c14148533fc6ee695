@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuery를 직접 다운로드하고 호스팅 -->
+</head>
+<body>
+
+<p id="demo">p tag</p>
+
+<button type="button" onclick="func()">버튼</button>
+<button type="button" id="btn">버튼</button>
+
+<script type="text/javascript">
+function func(){
+	alert("클릭!");
+	
+}
+</script>
+
+</body>
+</html>

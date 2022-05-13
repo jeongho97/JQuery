@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuery를 직접 다운로드하고 호스팅 -->
+</head>
+<body>
+
+<h1>수영시합</h1>
+
+<button type="button" id="woman">여성부</button>
+<button type="button" id="man">남성부</button>
+
+<table border="1">
+<tr>
+	<th>title</th>
+	<th>name</th>
+	<th>time</th>
+</tr>
+<tr>
+	<th>우승</th>
+	<th>name</th>
+	<th>time</th>
+</tr>
+<tr>
+	<th>title</th>
+	<th>name</th>
+	<th>time</th>
+</tr>
+<tr>
+	<th>title</th>
+	<th>name</th>
+	<th>time</th>
+</tr>
+
+
+</table>
+
+<script type="text/javascript">
+
+
+</script>
+
+</body>
+</html>

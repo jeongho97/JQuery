@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<h2>사진들</h2>
+<img alt="" src="./images/img01.jpg" class="pic" value="성 자비에르 성당(외관)" width="100">
+<img alt="" src="./images/img02.jpg" class="pic" value="성 자비에르 성당(내부)" width="100">
+<img alt="" src="./images/img03.jpg" class="pic" value="은행" width="100">
+<img alt="" src="./images/img04.jpg" class="pic" value="가로등" width="100">
+
+$("#pic").click(function(){
+})
+
+</body>
+</html>

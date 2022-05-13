@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuery를 직접 다운로드하고 호스팅 -->
+</head>
+<body>
+
+<table border="1">
+<col width="50"><col width="200"><col width="150">
+
+<tr>
+	<th>번호</th><th>이름</th><th>나이</th>
+</tr>
+
+<tr>
+<tr class="cls">
+	<th>1</th><td>홍길동</td><td>24</td>
+</tr>
+<tr>
+<tr class="cls">
+	<th>2</th><td>성춘향</td><td>16</td>
+</tr>
+<tr>
+<tr class="cls">
+	<th>3</th><td>이정호</td><td>26</td>
+</tr>
+
+
+</table>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$("tr.cls").mouseover(function(){
+		$(this).
+	})
+	
+})
+
+
+</script>
+
+
+
+</body>
+</html>

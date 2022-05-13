@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+
+<h1>동적 Table</h1>
+
+<table border="1" id="list_table">
+<colgroup>
+
+	<col style="width:30px">
+	<col style="width:200px">
+	<col style="width:300px">
+	<col style="width:200px">
+
+</colgroup>
+
+<thead>
+<tr>
+
+	<th>No</th>
+	<th>Name</th>
+	<th>Birth</th>
+	<th>Action</th>
+
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>01</td>
+	<td>홍길동</td>
+	<td>1991/06/08</td>
+	<td><a href="#" class="delete-link">삭제</a></td>
+</tr>
+</tbody>
+
+
+</table>
+
+<br><br>
+
+<!-- 입력테이블 -->
+<table border="1" id="append_table">
+<colgroup>
+	<col style="width:30px">
+	<col style="width:200px">
+	<col style="width:300px">
+	<col style="width:200px">
+</colgroup>
+
+<thead>
+
+</thead>
+
+<tbody>
+
+</tbody>
+
+</table>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuery를 직접 다운로드하고 호스팅 -->
+</head>
+<body>
+
+<h1>수영시합</h1>
+
+<button type="button" id="woman">여성부</button>
+<button type="button" id="man">남성부</button>
+
+<table border="1">
+<tr>
+	<th>title</th>
+	<th></th>
+	<th></th>
+</tr>
+<tr>
+	<th>우승</th>
+	<th></th>
+	<th></th>
+</tr>
+<tr>
+	<th>1위</th>
+	<th></th>
+	<th></th>
+</tr>
+<tr>
+	<th>2위</th>
+	<th></th>
+	<th></th>
+</tr>
+
+
+</table>
+
+<script type="text/javascript">
+
+let woman=[
+			["",""],
+			["김영희","01:06:11"],
+			["성춘향","01:17:23"],
+			["박진희","01:23:45"]
+];
+
+let man=[
+	["",""],
+	["홍길동","01:06:45"],
+	["일지매","01:17:22"],
+	["정수동","01:33:18"]
+];
+
+$(document).ready(function(){
+	$("tr:eq")
+})
+
+</script>
+
+</body>
+</html>

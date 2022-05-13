@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuery를 직접 다운로드하고 호스팅 -->
+</head>
+<body>
+
+<h3>Detail View</h3>
+
+<textarea rows="3" cols="30">기본글입니다...</textarea>
+<br><br>
+<button type="button" id="answer">답글 입력</button>
+
+<!-- <div id="answerFrm">
+
+<br>답글:<input type="text" id="answerText">
+<br><button type="button" id="answerBtn">답글 작성완료</button>
+
+</div> -->
+
+<script type="text/javascript">
+
+$("#answerFrm").hide();
+
+$(document).ready(function() {
+	$("#answer").click(function(){
+		//$("answer").show();
+		let txtfield="<br>답글:<input type='text' id='answerText'>";
+		$("answerFrm").append(txtfield);
+		
+		let btn="<br><button type='button' id='answerBtn'>답글 작성완료</button>"
+			$("answerFrm").append(btn);
+	});
+});
+
+</body>
+</html>

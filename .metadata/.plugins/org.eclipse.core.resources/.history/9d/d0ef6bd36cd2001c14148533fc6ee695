@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2>room_image</h2>
+<img alt="" src="./images/photo_a.jpg" id="pic">
+
+</body>
+</html>
